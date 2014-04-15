@@ -1,5 +1,7 @@
 <?php
 
-$joe = new Object();
+$joe = new stdClass();
 $joe->age = 18;
-$joe->name = ‘Joe’;
+$joe->name = "Joe";
+
+echo $joe->name;
